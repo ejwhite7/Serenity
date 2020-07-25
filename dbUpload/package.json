@@ -1,0 +1,14 @@
+{
+  "name": "meditation_data",
+  "version": "1.0.0",
+  "description": "Meditation course data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EJ White",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "^9.0.0"
+  }
+}
