@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "17B4D4C37FD7BF3F38E45E94F08FEA20"
+               BlueprintIdentifier = "9DED381CE9B234B0ED3FAE2420B011EC"
                BuildableName = "Pods_Serenity.framework"
                BlueprintName = "Pods-Serenity"
                ReferencedContainer = "container:Pods.xcodeproj">

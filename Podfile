@@ -6,9 +6,11 @@ target 'Serenity' do
   use_frameworks!
 
   # Pods for Serenity
-  pod 'Firebase/Auth'
-  pod 'Firebase/Firestore'
   pod 'Firebase/Core'
-  pod 'FirebaseFirestoreSwift'
+  pod 'FirebaseUI/Auth', '~> 8.0'
+  pod 'FirebaseUI/Google'
+  pod 'FirebaseUI/Email'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
 
 end

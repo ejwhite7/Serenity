@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9E4DA69A494285484E3FB841 /* Pods_Serenity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED037B4CF8572A6B39C807C /* Pods_Serenity.framework */; };
+		ECA072A724D49C9D00390CC4 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA072A624D49C9D00390CC4 /* CourseViewController.swift */; };
+		ECA072A924D49F5600390CC4 /* CourseCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA072A824D49F5600390CC4 /* CourseCellViewController.swift */; };
 		ECCB3A7524CB742D00D0CF02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCB3A7424CB742D00D0CF02 /* AppDelegate.swift */; };
 		ECCB3A7724CB742D00D0CF02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCB3A7624CB742D00D0CF02 /* SceneDelegate.swift */; };
-		ECCB3A7924CB742D00D0CF02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCB3A7824CB742D00D0CF02 /* ViewController.swift */; };
+		ECCB3A7924CB742D00D0CF02 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCB3A7824CB742D00D0CF02 /* LibraryViewController.swift */; };
 		ECCB3A7C24CB742D00D0CF02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCB3A7A24CB742D00D0CF02 /* Main.storyboard */; };
 		ECCB3A7E24CB743000D0CF02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCB3A7D24CB743000D0CF02 /* Assets.xcassets */; };
 		ECCB3A8124CB743000D0CF02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCB3A7F24CB743000D0CF02 /* LaunchScreen.storyboard */; };
@@ -22,10 +24,12 @@
 		2D4552022FECF6181F2A5A06 /* Pods-Serenity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serenity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Serenity/Pods-Serenity.debug.xcconfig"; sourceTree = "<group>"; };
 		5ED037B4CF8572A6B39C807C /* Pods_Serenity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Serenity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDECBBD12FCB62C6E300EF2D /* Pods-Serenity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serenity.release.xcconfig"; path = "Pods/Target Support Files/Pods-Serenity/Pods-Serenity.release.xcconfig"; sourceTree = "<group>"; };
+		ECA072A624D49C9D00390CC4 /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
+		ECA072A824D49F5600390CC4 /* CourseCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCellViewController.swift; sourceTree = "<group>"; };
 		ECCB3A7124CB742D00D0CF02 /* Serenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Serenity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCB3A7424CB742D00D0CF02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECCB3A7624CB742D00D0CF02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ECCB3A7824CB742D00D0CF02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECCB3A7824CB742D00D0CF02 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		ECCB3A7B24CB742D00D0CF02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECCB3A7D24CB743000D0CF02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECCB3A8024CB743000D0CF02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,7 +90,9 @@
 			children = (
 				ECCB3A7424CB742D00D0CF02 /* AppDelegate.swift */,
 				ECCB3A7624CB742D00D0CF02 /* SceneDelegate.swift */,
-				ECCB3A7824CB742D00D0CF02 /* ViewController.swift */,
+				ECCB3A7824CB742D00D0CF02 /* LibraryViewController.swift */,
+				ECA072A624D49C9D00390CC4 /* CourseViewController.swift */,
+				ECA072A824D49F5600390CC4 /* CourseCellViewController.swift */,
 				ECCB3A7A24CB742D00D0CF02 /* Main.storyboard */,
 				ECCB3AAE24CC490100D0CF02 /* GoogleService-Info.plist */,
 				ECCB3A7D24CB743000D0CF02 /* Assets.xcassets */,
@@ -109,6 +115,7 @@
 				ECCB3A6E24CB742D00D0CF02 /* Frameworks */,
 				ECCB3A6F24CB742D00D0CF02 /* Resources */,
 				4296C14C5C0EE15EDBF7BBD2 /* [CP] Embed Pods Frameworks */,
+				CA8ABADA8088CAB7F099F040 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,7 +182,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Serenity/Pods-Serenity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
@@ -189,7 +198,9 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
@@ -202,6 +213,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Serenity/Pods-Serenity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA8ABADA8088CAB7F099F040 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Serenity/Pods-Serenity-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseEmailAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Serenity/Pods-Serenity-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F0159AC60C3743FB780F4792 /* [CP] Check Pods Manifest.lock */ = {
@@ -234,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECCB3A8924CB786B00D0CF02 /* Course.swift in Sources */,
-				ECCB3A7924CB742D00D0CF02 /* ViewController.swift in Sources */,
+				ECCB3A7924CB742D00D0CF02 /* LibraryViewController.swift in Sources */,
 				ECCB3A7524CB742D00D0CF02 /* AppDelegate.swift in Sources */,
+				ECA072A924D49F5600390CC4 /* CourseCellViewController.swift in Sources */,
+				ECA072A724D49C9D00390CC4 /* CourseViewController.swift in Sources */,
 				ECCB3A7724CB742D00D0CF02 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
